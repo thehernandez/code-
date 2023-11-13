@@ -1,0 +1,12 @@
+void Battlesystem() {
+	cout << "you are going to be attacked!!" << endl;
+	int Monsterhealth = 50;
+	while (health >= 0 && Monsterhealth > 0) {  
+		cout << "the monster bites you for 10hp" << endl;
+		health -= 10;
+		cout << "you hit the monster for 20hp" << endl;
+		Monsterhealth -= 20;
+		cout << "your health" << health << ". monster health:" << Monsterhealth << endl; 
+			system("pause");
+	}
+} 
